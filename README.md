@@ -71,6 +71,16 @@ oops, program went wrong seems like we're still missing some dependencies.
 npm uninstall tailwindcss postcss autoprefixer
 npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 ```
+and create a postcss configure file: postcss.config.js
+```
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+
+```
 then
 ```
 npm install vuex --save
