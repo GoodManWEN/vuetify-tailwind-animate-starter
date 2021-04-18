@@ -82,4 +82,5 @@ npm install vue-wechat-title --save
 
 ### Remarks
 
-By default, backend proxy at 127.0.0.1:8079 -> /dev/
+- By default, backend proxy at 127.0.0.1:8079 -> /dev/
+- By default, all tailwind.css classes should be used with prefix `tw-` and all animate.css classes should be used with prefix `animate__`
