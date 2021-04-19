@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify';
-import animate from 'animate.css'
 import "@/assets/tailwind.css"
 // axios
 import VueAxios from 'vue-axios'
@@ -21,8 +20,6 @@ import utils from './plugins/utils'
 
 // vuetify
 Vue.config.productionTip = false
-// animate
-Vue.use(animate);
 // axios
 Vue.use(VueAxios, axios)
 Vue.prototype.$axios = request

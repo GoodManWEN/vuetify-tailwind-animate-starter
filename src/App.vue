@@ -32,6 +32,14 @@ export default {
     } else {
       this.$store.commit('set_'+ theme +'mode')
     }
+  },
+  mounted(){
+  },
+  watch:{
+  },
+  computed:{
+  },
+  methods:{
   }
 };
 </script>
