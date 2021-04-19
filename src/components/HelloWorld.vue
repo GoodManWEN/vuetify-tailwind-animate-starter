@@ -65,7 +65,7 @@
     data: () => ({
     }),
     created(){
-      this.$utils.dynamic_append_link("https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.min.css")
+      this.$utils.dynamic_append_link("https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css")
     },
     mounted(){
     },
